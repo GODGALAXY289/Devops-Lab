@@ -11,7 +11,7 @@ pipeline{
         publishHTML([
           allowmissing:true,
           alwaysLinktoLastBuild:false,
-          KeepAll:false,
+          keepAll:false,
 
           reportDir:'.',
           reportFiles:'Temporary.html'
