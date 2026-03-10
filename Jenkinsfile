@@ -14,7 +14,7 @@ pipeline{
           keepAll:false,
 
           reportDir:'.',
-          reportFiles:'Temporary.html'
+          reportFiles:'Temporary.html',
           reportName:'My html pipe page'
         ])
       }
