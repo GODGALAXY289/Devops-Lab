@@ -2,7 +2,7 @@ pipeline{
   agent any
   stages{
     stage('checkout') {
-      step {
+      steps {
         git 'https://github.com/GODGALAXY289/Devops-Lab.git'
       }
     }
