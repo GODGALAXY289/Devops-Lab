@@ -3,7 +3,7 @@ pipeline{
   stages{
     stage('checkout') {
       steps {
-        git 'https://github.com/GODGALAXY289/Devops-Lab.git'
+        git branch: 'main', url:'https://github.com/GODGALAXY289/Devops-Lab.git'
       }
     }
     stage('Publish') {
